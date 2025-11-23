@@ -54,6 +54,12 @@ export const connectorsConfig = [
     networks: [...UniswapConfig.networks],
   },
   {
+    name: 'koalaswap',
+    trading_types: [...KoalaswapConfig.tradingTypes],
+    chain: KoalaswapConfig.chain,
+    networks: [...KoalaswapConfig.networks],
+  },
+  {
     name: '0x',
     trading_types: [...ZeroXConfig.tradingTypes],
     chain: ZeroXConfig.chain,

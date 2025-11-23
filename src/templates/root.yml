@@ -30,6 +30,10 @@ configurations:
     configurationPath: chains/ethereum/base.yml
     schemaPath: ethereum-network-schema.json
 
+  $namespace ethereum-koala:
+    configurationPath: chains/ethereum/koala.yml
+    schemaPath: ethereum-network-schema.json
+
   $namespace ethereum-sepolia:
     configurationPath: chains/ethereum/sepolia.yml
     schemaPath: ethereum-network-schema.json
