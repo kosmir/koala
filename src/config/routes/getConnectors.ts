@@ -72,6 +72,12 @@ export const connectorsConfig = [
     networks: [...PancakeswapConfig.networks],
   },
   {
+    name: 'koalaswap',
+    trading_types: [...KoalaswapConfig.tradingTypes],
+    chain: KoalaswapConfig.chain,
+    networks: [...KoalaswapConfig.networks],
+  },
+  {
     name: 'pancakeswap-sol',
     trading_types: [...PancakeswapSolConfig.tradingTypes],
     chain: PancakeswapSolConfig.chain,
