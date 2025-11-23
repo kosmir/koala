@@ -1,0 +1,4 @@
+chainID: 88811
+nodeURL: https://rpc.unit0.dev
+nativeCurrencySymbol: UNIT0
+swapProvider: koalaswap/router
